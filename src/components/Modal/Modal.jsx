@@ -82,7 +82,10 @@ export default function Modal({ product, onClose }) {
         <div className={styles.details}>
           <span className={styles.colorTag}>{product.color}</span>
           <h2 className={styles.name}>{product.name}</h2>
-          <p className={styles.price}>{product.price}</p>
+          <div className={styles.price}>
+            <p className={styles.priceCard}>Cartão: {product.priceCard}</p>
+            <p className={styles.pricePixel}>PIX: {product.pricePixel}</p>
+          </div>
           <p className={styles.desc}>{product.description}</p>
 
           {/* Photo counter */}

@@ -92,7 +92,10 @@ export default function ProductCard({ product, index, onClick }) {
         <h3 className={styles.name}>{product.name}</h3>
         <p className={styles.cardDesc}>{product.description}</p>
         <div className={styles.footer}>
-          <span className={styles.price}>{product.price}</span>
+          <div className={styles.price}>
+            <span>{product.priceCard}</span>
+            <span className={styles.pricePixel}>{product.pricePixel}</span>
+          </div>
           <button
             className={styles.iconBtn}
             onClick={e => { e.stopPropagation(); onClick() }}
