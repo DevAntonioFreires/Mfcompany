@@ -4,7 +4,8 @@ const products = [
   {
     id: 1,
     name: 'Away Jordan — Masculino',
-    price: 'R$ 119,90',
+    priceCard: 'R$ 140,00',
+    pricePixel: 'R$ 130,00',
     tag: 'Masculino',
     tagVariant: 'dark',
     color: 'Azul / Preto',
@@ -17,7 +18,8 @@ const products = [
   {
     id: 2,
     name: 'Away Jordan — Feminino',
-    price: 'R$ 119,90',
+    priceCard: 'R$ 140,00',
+    pricePixel: 'R$ 130,00',
     tag: 'Feminino',
     tagVariant: 'dark',
     color: 'Azul / Preto',
@@ -33,7 +35,8 @@ const products = [
   {
     id: 3,
     name: 'Combo Casal',
-    price: 'R$ 219,90',
+    priceCard: 'R$ 260,00',
+    pricePixel: 'R$ 240,00',
     tag: '🔥 Combo',
     tagVariant: 'highlight',
     color: 'Azul + Amarelo',
@@ -50,7 +53,8 @@ const products = [
   {
     id: 4,
     name: 'Brasil 2026 — Amarela Masculino',
-    price: 'R$ 119,90',
+    priceCard: 'R$ 140,00',
+    pricePixel: 'R$ 130,00',
     tag: 'Masculino',
     tagVariant: 'green',
     color: 'Amarelo / Verde',
@@ -66,7 +70,8 @@ const products = [
   {
     id: 5,
     name: 'Brasil 2026 — Amarela Feminino',
-    price: 'R$ 119,90',
+    priceCard: 'R$ 140,00',
+    pricePixel: 'R$ 130,00',
     tag: 'Feminino',
     tagVariant: 'green',
     color: 'Amarelo / Verde',
